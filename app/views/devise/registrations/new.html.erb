@@ -1,0 +1,59 @@
+<div class="container-bg form-register">
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card card-signin flex-row my-5">
+          <div class="card-img-left d-none d-md-flex">
+              <!-- Background image for card set in CSS! -->
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Sign Up</h5>
+            <%= form_for(resource, as: resource_name, url: registration_path(resource_name), class: "form-signin") do |f| %>
+              <div class="form-label-group">
+                <%= f.text_field :name, autofocus: true, class: "form-control", placeholder: "Name", required: :true %>
+                <%= f.label :name, class: "required" %>
+              </div>
+              <%= errors_for f, :name %>
+
+              <div class="form-label-group">
+                <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "Email", required: :true %>
+                <%= f.label :email, class: "required" %>
+              </div>
+                <%= errors_for f, :email %>
+
+              <div class="form-label-group">
+                <%= f.text_field :tel, autofocus: true, class: "form-control", placeholder: "Phone number", required: :true %>
+                <%= f.label :tel, "Phone number", class: "required" %>
+              </div>
+              <%= errors_for f, :tel %>
+              
+              <div class="form-label-group">
+                <%= f.text_field :address, autofocus: true, class: "form-control", placeholder: "Address" %>
+                <%= f.label :address %>
+              </div>
+              <%= errors_for f, :address %>
+
+              <hr>
+
+              <div class="form-label-group">
+              
+                <%= f.password_field :password, autocomplete: "new-password", class: "form-control", placeholder: "Password", required: :true %>
+                <%= f.label :password, class: "required" %>
+              </div>
+              <%= errors_for f, :password %>
+              
+              <div class="form-label-group">
+                <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control", placeholder: "Confirm Password", required: :true %>
+                <%= f.label :password_confirmation, class: "required" %>
+              </div>
+              <%= errors_for f, :password_confirmation %>
+
+              <%= f.submit "Sign up", class: "btn btn-lg btn-primary btn-block text-uppercase" %>
+              <%= link_to "Sign In", new_user_session_path, class: "d-block text-center mt-2 small"%>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
