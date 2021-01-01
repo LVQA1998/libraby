@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-01T01:34:36.368Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JIAM61dIaaDl33G9CwLj" version="14.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-01T01:51:24.483Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="l7lkj5lqWAnnBgyvQsCj" version="14.1.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1277" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -79,8 +79,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-0" value="Untitled Layer" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="h05c_IolbolMF5R1GUw5-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=-0.012;exitY=0.782;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.006;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="h05c_IolbolMF5R1GUw5-0" source="h05c_IolbolMF5R1GUw5-22" target="h05c_IolbolMF5R1GUw5-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="242" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-9" value="Resumes" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="h05c_IolbolMF5R1GUw5-0">
-          <mxGeometry x="-180" y="90" width="160" height="170" as="geometry">
+          <mxGeometry x="-190" y="70" width="160" height="350" as="geometry">
             <mxRectangle x="60" y="90" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -99,14 +104,47 @@
         <mxCell id="h05c_IolbolMF5R1GUw5-12" value="Avatar(Varchar)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-9">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-23" value="Address(Varchar)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-9">
+          <mxGeometry y="156" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-24" value="Facebook(Varchar)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-9">
+          <mxGeometry y="182" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-25" value="Website(Varchar)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-9">
+          <mxGeometry y="208" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-26" value="Status(enum)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-9">
+          <mxGeometry y="234" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-27" value="Status(enum)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-9">
+          <mxGeometry y="260" width="160" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="h05c_IolbolMF5R1GUw5-0" source="h05c_IolbolMF5R1GUw5-11" target="zkfFHV4jXpPFQw0GAbJ--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-16" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="h05c_IolbolMF5R1GUw5-0">
-          <mxGeometry x="-20" y="140" width="20" height="20" as="geometry" />
+          <mxGeometry x="-20" y="160" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-17" value="1&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="h05c_IolbolMF5R1GUw5-0">
           <mxGeometry x="40" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-28" value="Add_ons" style="swimlane;" vertex="1" parent="h05c_IolbolMF5R1GUw5-0">
+          <mxGeometry x="-440" y="130" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-30" value="Id(int)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-28">
+          <mxGeometry y="32" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-31" value="Resume_id(int)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-28">
+          <mxGeometry y="56" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-32" value="Name(varchar)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-28">
+          <mxGeometry y="82" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-33" value="Time(date)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-28">
+          <mxGeometry y="108" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-34" value="Content(text)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-28">
+          <mxGeometry y="134" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
