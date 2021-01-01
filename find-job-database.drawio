@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-01T08:20:49.520Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hONtuvRm_Kr7fFoHFrSx" version="14.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-01T08:40:19.641Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="a5KkeIt_nFgqlBChc6zl" version="14.1.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1598" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,7 +171,7 @@
         <mxCell id="h05c_IolbolMF5R1GUw5-59" value="website(varchar)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-64">
           <mxGeometry y="83" width="140" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="h05c_IolbolMF5R1GUw5-80" value="Decription(varchar)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-64">
+        <mxCell id="h05c_IolbolMF5R1GUw5-80" value="Decription(text)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-64">
           <mxGeometry y="110" width="140" height="22" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-81" value="Founded(date)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-64">
