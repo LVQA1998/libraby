@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-01T07:09:42.540Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_rI4B82yaWhneJ8KG7pW" version="14.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-01T07:16:52.516Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Q8TTtr88IgGK--cDIHTY" version="14.1.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2177" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-70" value="Locations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-0">
-          <mxGeometry x="385" y="374" width="110" height="70" as="geometry" />
+          <mxGeometry x="370" y="460" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-68" value="Id(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-70">
           <mxGeometry y="26" width="110" height="22" as="geometry" />
@@ -206,7 +206,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-83" value="Jobs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-0">
-          <mxGeometry x="610" y="100" width="140" height="208" as="geometry" />
+          <mxGeometry x="610" y="100" width="140" height="286" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-84" value="Id(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -214,7 +214,7 @@
         <mxCell id="h05c_IolbolMF5R1GUw5-85" value="Company_id(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="h05c_IolbolMF5R1GUw5-86" value="Describer(varchar)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
+        <mxCell id="h05c_IolbolMF5R1GUw5-86" value="Describer(text)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-87" value="Salary(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
@@ -229,6 +229,15 @@
         <mxCell id="h05c_IolbolMF5R1GUw5-90" value="End_at(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
           <mxGeometry y="182" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-111" value="Experience(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
+          <mxGeometry y="208" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-112" value="Gender(enum)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
+          <mxGeometry y="234" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h05c_IolbolMF5R1GUw5-113" value="Job_type(enum)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-83">
+          <mxGeometry y="260" width="140" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-91" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="h05c_IolbolMF5R1GUw5-0" source="h05c_IolbolMF5R1GUw5-57" target="h05c_IolbolMF5R1GUw5-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -242,7 +251,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h05c_IolbolMF5R1GUw5-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.494;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="h05c_IolbolMF5R1GUw5-0" source="h05c_IolbolMF5R1GUw5-101" target="h05c_IolbolMF5R1GUw5-90">
+        <mxCell id="h05c_IolbolMF5R1GUw5-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.495;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="h05c_IolbolMF5R1GUw5-0" source="h05c_IolbolMF5R1GUw5-101" target="h05c_IolbolMF5R1GUw5-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-106" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h05c_IolbolMF5R1GUw5-105">
@@ -256,7 +265,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-101" value="job_locations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="h05c_IolbolMF5R1GUw5-0">
-          <mxGeometry x="610" y="370" width="140" height="78" as="geometry" />
+          <mxGeometry x="610" y="460" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="h05c_IolbolMF5R1GUw5-102" value="job_id(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="h05c_IolbolMF5R1GUw5-101">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
